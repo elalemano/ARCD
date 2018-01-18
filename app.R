@@ -1,4 +1,8 @@
-devtools::install_github("elalemano/Optimizer")
+install.packages("https://github.com/elalemano/ARCD/blob/master/DiGGer_1.0.1.zip", repos = NULL, type = "win.binary")
+devtools::install_git("git://github.com/elalemano/Optimizer")#, repos = NULL, type = "win.binary")
+
+download.file("https://github.com/elalemano/ARCD", 'DiGGer_1.0.1.zip')
+install.packages(paste(getwd(),"/","DiGGer_1.0.1.zip",sep="", collapse = ""))
 
 require(shiny)
 require(ggplot2)
@@ -133,5 +137,5 @@ shinyApp(ui = ui, server = server)
 
 
 ### Deploy app ###
-#rsconnect::setAccountInfo(name='buzzwinkel', token='D2B6A38F5FBE4C51B5BACEC30E2DA66F', secret='ggsXQnt15mHBUfGefD9F8vd701FBhjqdGAkzlDGn')
-#rsconnect::deployApp("F:/Programming/R/Shiny Apps/My first App", appTitle = "My first App with Shiny")
+rsconnect::setAccountInfo(name='buzzwinkel', token='D2B6A38F5FBE4C51B5BACEC30E2DA66F', secret='ggsXQnt15mHBUfGefD9F8vd701FBhjqdGAkzlDGn')
+rsconnect::deployApp("F:/Programming/R/Shiny Apps/My first App", appTitle = "My first App with Shiny")
