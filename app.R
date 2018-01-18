@@ -1,11 +1,9 @@
-install.packages("https://github.com/elalemano/ARCD/tree/master/DiGGer", repos = NULL, type = "source")
+devtools::install_github("https://github.com/elalemano/ARCD/tree/master/DiGGer")
 
 require(shiny)
 require(ggplot2)
 require(DiGGer)
 require(magrittr)
-
-
 
 ui <- fluidPage(
       sidebarLayout(
