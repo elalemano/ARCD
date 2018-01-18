@@ -1,4 +1,4 @@
-devtools::install_github("https://github.com/elalemano/ARCD/tree/master/DiGGer")
+devtools::install_github("elalemano/Optimizer")
 
 require(shiny)
 require(ggplot2)
