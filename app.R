@@ -1,3 +1,5 @@
+install.packages("https://github.com/elalemano/ARCD/tree/master/DiGGer", repos = NULL, type = "source")
+
 require(shiny)
 require(ggplot2)
 require(DiGGer)
