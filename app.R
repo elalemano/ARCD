@@ -2,8 +2,9 @@
 #remove.packages("DiGGer")
 
 #require(devtools)
-install_github("elalemano/Optimizer")
+install_github("elalemano/Optimizer", type="win.binary")
 
+require(devtools)
 require(DiGGer)
 require(shiny)
 require(ggplot2)
