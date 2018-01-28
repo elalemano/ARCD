@@ -1,14 +1,10 @@
-#install.packages("F:/GitHub/ARCD/DiGGer", type = "source")#, repos = NULL)#, type = "win.binary")
-#install_file("F:/GitHub/ARCD/DiGGer")
-#remove.packages("DiGGer")
-#install.packages("~/DiGGer_1.0.1.zip", repos = NULL, type = "win.binary")
 
+#remove.packages("DiGGer")
 
 #require(devtools)
-#install_github("elalemano/Optimizer")
+install_github("elalemano/Optimizer")
 
 require(DiGGer)
-
 require(shiny)
 require(ggplot2)
 require(DiGGer)
