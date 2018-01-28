@@ -1,0 +1,10 @@
+name: arcd_creator
+title: ARCD Creator
+username:
+account: buzzwinkel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 253673
+bundleId: 1196467
+url: https://buzzwinkel.shinyapps.io/arcd_creator/
+when: 1517150080.04035

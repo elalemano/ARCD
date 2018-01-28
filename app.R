@@ -1,6 +1,14 @@
-#install.packages("DiGGer_1.0.1_R_x86_64-pc-linux-gnu.tar.gz", repos = NULL)#, type = "win.binary")
-require(devtools)
-install_github("https://github.com/elalemano/ARCD/blob/master/DiGGer_1.0.1_R_x86_64-pc-linux-gnu.tar.gz")
+#install.packages("F:/GitHub/ARCD/DiGGer", type = "source")#, repos = NULL)#, type = "win.binary")
+#install_file("F:/GitHub/ARCD/DiGGer")
+#remove.packages("DiGGer")
+#install.packages("~/DiGGer_1.0.1.zip", repos = NULL, type = "win.binary")
+
+
+#require(devtools)
+#install_github("elalemano/Optimizer")
+
+require(DiGGer)
+
 require(shiny)
 require(ggplot2)
 require(DiGGer)
