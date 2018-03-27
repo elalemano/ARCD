@@ -1,10 +1,11 @@
+remove.packages("DiGGer")
+install.packages("DiGGer_1.0.1.zip", repos = NULL, type= "win.binary")
 
-#remove.packages("DiGGer")
-
-#require(devtools)
-install_github("elalemano/Optimizer", type="win.binary")
+install.packages.zip("https://github.com/elalemano/Optimizer/blob/master/DiGGer_1.0.1.zip")
 
 require(devtools)
+install_github("elalemano/Optimizer", type = "win.binary")
+
 require(DiGGer)
 require(shiny)
 require(ggplot2)
